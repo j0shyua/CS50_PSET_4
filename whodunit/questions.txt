@@ -1,0 +1,30 @@
+Whodunit questions
+
+1) stdint.h is a header file that allows programmers to use specific sizes for integers
+
+2) By using uint8_t, uint32_t, int32_t, uint16_t, the programmer knows the exact size of an integer variable or constant 
+is, which can allow a program to work properly on any computer, and make up certain file types.
+
+3)  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+   
+4) First two letters of BMP file are "BM," or 66 77 in ASCII, or 0x42 0x4d in hexadecimal
+
+5) biSize is the number of bytes required by the structure BITMAPINFOHEADER, while bfSize is the size in bytes of the bitmap file.
+
+6) If biHeight is negative, the order of the pixels in the BMP are from top to bottom.
+
+7) biBitCount specifies the BMP's color depth/bits per pixel.
+
+8) fopen could possibly return NULL in lines 24 and 2 because the program does not have sufficient permissions to 
+read or write a file, or the file does not exist.
+
+9) The third argument in fread is 1, because the size of the block is the size defined in the header.
+
+10) padding = 3
+
+11) fseek changes the pointer in a file so that you can read a certain area of a file.
+
+12) SEEK_CUR is the current location of the pointer in a file, which can be changed by using fseek.
